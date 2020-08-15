@@ -28,6 +28,7 @@ public class FOPPdfDemo {
         	String templatePath="D:\\Temp\\template.xsl";
         	String xmlSource="D:\\Temp\\Employees.xml";
         	String pdfPath="D:\\Temp\\employee.pdf";
+			System.out.println( "Hello World1!" );
         	FOPPdfDemo.convertToPDF( );
        
         } catch (Exception e) {
